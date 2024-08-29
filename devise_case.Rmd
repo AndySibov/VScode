@@ -9,9 +9,11 @@ output:
    - \renewcommand{\rmdefault}{lmss} % Use sans-serif as default font
 ---
 
-```{r dependencies, include=FALSE, warning= FALSE, message= FALSE}
-#dependencies
 
+
+```{r dependencies, include=FALSE, warning= FALSE, message= FALSE}
+
+#dependencies
 
 # Git HUB connectie naar private repository configureren voor csv, png en pdf data bronnen
 
@@ -139,7 +141,7 @@ check_and_install_packages <- function(packages){
 #benodigde packages
 pkgs <- c('tidyverse', 'readr', 'forcats', 'ggplot2', 'sf', 'cbsodataR', 'stringr', 'rlang','viridisLite', 'httr', 'RColorBrewer', 'purrr', 'readr', 'tools', 'scales',
           'rmarkdown', 'shiny')
-rmarkdown::run()
+
 # exe
 check_and_install_packages(pkgs)
 
