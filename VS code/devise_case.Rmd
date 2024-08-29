@@ -137,7 +137,8 @@ check_and_install_packages <- function(packages){
 }
 
 #benodigde packages
-pkgs <- c('tidyverse', 'readr', 'forcats', 'ggplot2', 'sf', 'cbsodataR', 'stringr', 'rlang','viridisLite', 'httr', 'RColorBrewer', 'purrr', 'readr', 'tools', 'scales')
+pkgs <- c('tidyverse', 'readr', 'forcats', 'ggplot2', 'sf', 'cbsodataR', 'stringr', 'rlang','viridisLite', 'httr', 'RColorBrewer', 'purrr', 'readr', 'tools', 'scales',
+          'rmarkdown')
 
 # exe
 check_and_install_packages(pkgs)
@@ -158,6 +159,7 @@ library(purrr)
 library(readr)
 library(tools)
 library(scales)
+library(rmarkdown)
 
 ```
 
